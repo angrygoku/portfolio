@@ -1,3 +1,10 @@
+# Govind Dixit — Personal Portfolio
+
+A high-expression, Indian maximal inspired personal portfolio with:
+- rich collage visuals
+- motion-first project cards
+- animated metrics and timeline
+- premium typography and textured art direction
 # The Signal Atlas — Abstract Portfolio Concept
 
 A highly original, abstract portfolio direction for Govind Dixit.

@@ -1,3 +1,12 @@
+# The Signal Atlas — Abstract Portfolio Concept
+
+A highly original, abstract portfolio direction for Govind Dixit.
+
+## What changed
+- Completely reimagined layout and visual language
+- Docked navigation panel behavior to avoid overlapping content
+- Scroll-driven abstract motion scenes for project and timeline storytelling
+- Added a detailed redesign rationale in `PROPOSAL.md`
 # Futuristic Portfolio
 
 A single-page immersive portfolio showcasing design, AI coding, and product leadership.
@@ -8,4 +17,5 @@ A single-page immersive portfolio showcasing design, AI coding, and product lead
 python3 -m http.server 4173
 ```
 
+Open: <http://localhost:4173>
 Open: http://localhost:4173

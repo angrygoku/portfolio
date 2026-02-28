@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Govind Dixit — The Signal Atlas</title>
+    <meta
+      name="description"
+      content="An abstract, cinematic portfolio concept for Govind Dixit blending design, AI systems, and product leadership through immersive spatial storytelling."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@600;700&display=swap"
     <title>Govind Dixit — AI Product Designer & Builder</title>
     <meta
       name="description"
@@ -23,6 +32,77 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="orbital-bg" aria-hidden="true"></div>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <header class="topbar glass">
+      <a class="wordmark" href="#intro">THE SIGNAL ATLAS</a>
+      <nav class="inline-nav">
+        <a href="#chapters">Chapters</a>
+        <a href="#work">Work</a>
+        <a href="#timeline">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="panel-toggle" id="open-panel" type="button" aria-expanded="false" aria-controls="nav-panel">
+        NAV
+      </button>
+    </header>
+
+    <aside class="nav-panel" id="nav-panel" aria-hidden="true">
+      <div class="panel-inner glass">
+        <p>Navigate Atlas</p>
+        <a href="#intro">Prelude</a>
+        <a href="#chapters">Concept</a>
+        <a href="#work">Project Signals</a>
+        <a href="#timeline">Experience Stream</a>
+        <a href="#contact">Transmission</a>
+      </div>
+    </aside>
+
+    <main>
+      <section id="intro" class="intro">
+        <p class="kicker">Abstract Portfolio System</p>
+        <h1>
+          I design experiences like <span>living interfaces</span> and build AI systems that turn complexity into clarity.
+        </h1>
+        <p class="lede">
+          Instead of a traditional resume layout, this portfolio behaves like a cinematic atlas: each section is a thematic signal showing design craft, systems thinking, and measurable execution.
+        </p>
+      </section>
+
+      <section id="chapters" class="chapter-grid">
+        <article class="chapter glass reveal">
+          <h2>01 / SIGNAL FORM</h2>
+          <p>Visual language inspired by orbital diagrams, digital artifacts, and luminous field gradients—expressive yet controlled.</p>
+        </article>
+        <article class="chapter glass reveal">
+          <h2>02 / SYSTEM INTELLIGENCE</h2>
+          <p>AI workflow layers, prompt architecture, and no-code orchestration are represented as connected nodes and dynamic cards.</p>
+        </article>
+        <article class="chapter glass reveal">
+          <h2>03 / IMPACT TRACES</h2>
+          <p>Outcomes are presented as evidence pulses: creators enabled, teams led, operations accelerated, and products shipped.</p>
+        </article>
+      </section>
+
+      <section id="work" class="signal-stage" data-stage>
+        <div class="stage-head">
+          <p class="kicker">Project Signals</p>
+          <h2>Work appears as rotating constellations, not static cards.</h2>
+        </div>
+        <div class="signal-ring" data-ring>
+          <article class="signal-card glass" data-node>
+            <h3>Wizzart Marketplace</h3>
+            <p>Hybrid ecosystem design for artists, integrating experiences, operations, and AI-assisted content systems.</p>
+          </article>
+          <article class="signal-card glass" data-node>
+            <h3>Automation Infrastructure</h3>
+            <p>Airtable + Zapier + GPT stack for registration, campaign execution, and internal process reliability.</p>
+          </article>
+          <article class="signal-card glass" data-node>
+            <h3>Immersive Campaign Design</h3>
+            <p>Narrative-led visual systems that improved consistency, memorability, and audience engagement quality.</p>
     <div class="bg-grid" aria-hidden="true"></div>
     <div class="bg-gradient" aria-hidden="true"></div>
     <div class="cursor-glow" aria-hidden="true"></div>
@@ -138,6 +218,41 @@
         </div>
       </section>
 
+      <section id="timeline" class="timeline">
+        <div class="timeline-head">
+          <p class="kicker">Experience Stream</p>
+          <h2>A directional timeline with glide transitions.</h2>
+        </div>
+        <div class="timeline-track" data-track>
+          <article class="milestone glass reveal">
+            <span>Now</span>
+            <h3>Product Management & Agentic AI</h3>
+            <p>I-HUB IIT Patna — sharpening advanced AI product direction and implementation strategy.</p>
+          </article>
+          <article class="milestone glass reveal">
+            <span>2021 — Present</span>
+            <h3>Founder & Managing Director</h3>
+            <p>Led multidisciplinary teams, drove cultural initiatives, and engineered internal tooling systems.</p>
+          </article>
+          <article class="milestone glass reveal">
+            <span>Foundation</span>
+            <h3>BBA LLB + Internships</h3>
+            <p>Legal rigor and communication discipline that now shape product thinking and decision quality.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact glass reveal">
+        <p class="kicker">Transmission Channel</p>
+        <h2>Let’s build a category-defining digital experience.</h2>
+        <a href="mailto:govinddixit799@gmail.com">govinddixit799@gmail.com</a>
+        <a href="tel:+919675624255">+91 96756 24255</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Govind Dixit · The Signal Atlas</p>
+    </footer>
       <section id="about" class="section reveal">
         <div class="section-head">
           <p class="eyebrow">About</p>

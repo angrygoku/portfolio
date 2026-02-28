@@ -188,8 +188,8 @@ h1 span { display: block; color: var(--accent3); }
   border: 2px solid rgba(25, 18, 15, 0.26);
   border-radius: 16px;
   background: rgba(255, 250, 240, 0.75);
-  transform: translateY(var(--offset, 18px)) rotate(var(--rot, 0deg));
-  opacity: var(--opacity, 0.3);
+  transform: translateY(var(--offset, 0px)) rotate(var(--rot, 0deg));
+  opacity: var(--opacity, 1);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .milestone span { color: var(--accent3); font-weight: 700; font-size: 0.84rem; }

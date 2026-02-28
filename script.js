@@ -54,6 +54,12 @@ const counterObserver = new IntersectionObserver(
 countNodes.forEach((node) => counterObserver.observe(node));
 
 if (!reducedMotion) {
+  milestones.forEach((item) => {
+    item.style.setProperty('--offset', '24px');
+    item.style.setProperty('--opacity', '0.35');
+    item.style.setProperty('--rot', '0deg');
+  });
+
   tiltCards.forEach((card) => {
     card.addEventListener('mousemove', (event) => {
       const rect = card.getBoundingClientRect();
